@@ -1,0 +1,24 @@
+{
+    "XCD": {
+        "type": "hpc",
+        "node": 5,
+        "area": 125,
+        "binnable": 0.85,
+        "g": 38,
+        "c": 40
+    },
+    "IOD": {
+        "type": "hpc",
+        "node": "7_EUV",
+        "area": 377
+    },
+    "hbm3": {
+        "type": "hbm",
+        "node": 3,
+        "capacity": 24
+    },
+    "interposer": {
+        "type": "interposer",
+        "area": 3000
+    }
+}

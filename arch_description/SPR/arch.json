@@ -1,0 +1,29 @@
+{
+    "Top": "SPR",
+    "SPR": {
+        "Die": {
+            "stack": 1,
+            "number": 4,
+            "bonding": "ubump",
+            "pitch": 55
+        },
+        "EMIB0": {
+            "stack": 0,
+            "number": 4,
+            "bonding": "ubump",
+            "pitch": 55
+        },
+        "EMIB1": {
+            "stack": 0,
+            "number": 4,
+            "bonding": "ubump",
+            "pitch": 55
+        },
+        "EMIB2": {
+            "stack": 0,
+            "number": 2,
+            "bonding": "ubump",
+            "pitch": 55
+        }
+    }
+}

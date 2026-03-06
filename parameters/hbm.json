@@ -1,0 +1,35 @@
+{
+    "2e"    : {
+        "x-dimension": 7.75,
+        "y-dimension": 11.87,
+        "x-dimension-micron": 10.975,
+        "y-dimension-micron": 9.975,
+        "PHY-x": 1.081,
+        "PHY-y": 6.0475,
+        "carbon": 1.135
+    },
+    "3"     : {
+        "x-dimension": 10.975,
+        "y-dimension": 10.975,
+        "PHY-x": 2.62,
+        "PHY-y": 7.728,
+        "carbon": 1.246875
+    },
+    "3_low"     : {
+        "x-dimension": 10.975,
+        "y-dimension": 10.975,
+        "PHY-x": 2.62,
+        "PHY-y": 7.728,
+        "carbon": 0.71
+    },
+    "3e"    : {
+        "x-dimension": 10.975,
+        "y-dimension": 10.975,
+        "PHY-x": 2.62,
+        "PHY-y": 7.728,
+        "carbon": 1.159583
+    },
+    "4"     : {
+        "carbon": 0.90625
+    }
+}

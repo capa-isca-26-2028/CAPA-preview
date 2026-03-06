@@ -1,0 +1,18 @@
+{
+    "Top": "TPUv4",
+    "TPUv4": {
+        "ASIC": {
+            "stack": 1,
+            "number": 1,
+            "bonding": "ubump",
+            "pitch": 55
+        },
+        "hbm2": {
+            "stack": 1,
+            "number": 4,
+            "bonding": "ubump",
+            "pitch": 55
+        },
+        "interposer": 0
+    }
+}

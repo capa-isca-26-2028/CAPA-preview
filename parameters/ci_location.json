@@ -1,0 +1,18 @@
+{
+    "industry_avg_a": 0.509,
+    "industry_avg"  : 0.523,
+    "china"         : 0.624,
+    "france"        : 0.0524,
+    "germany"       : 0.351,
+    "ireland"       : 0.311,
+    "japan"         : 0.462,
+    "singapore"     : 0.395,
+    "south_korea"   : 0.477,
+    "taiwan"        : 0.571,
+    "us_arizona"    : 0.373,
+    "us_new_york"   : 0.106,
+    "us_new_mexico" : 0.373,
+    "us_oregon"     : 0.29,
+    "us_texas"      : 0.371,
+    "us_vermont"    : 0.247
+}

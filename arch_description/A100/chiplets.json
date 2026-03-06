@@ -1,0 +1,19 @@
+{
+    "GPU": {
+        "type": "hpc",
+        "node": "7_EUV",
+        "area": 826,
+        "binnable": 0.75275,
+        "c": 6,
+        "g": 5
+    },
+    "hbm2e": {
+        "type": "hbm",
+        "node": "2e",
+        "capacity": 16
+    },
+    "interposer": {
+        "type": "interposer",
+        "area": 1575
+    }
+}

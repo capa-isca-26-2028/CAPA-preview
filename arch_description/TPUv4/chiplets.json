@@ -1,0 +1,16 @@
+{
+    "ASIC": {
+        "type": "hpc",
+        "node": "7_EUV",
+        "area": 598
+    },
+    "hbm2": {
+        "type": "hbm",
+        "node": "2e",
+        "capacity": 8
+    },
+    "interposer": {
+        "type": "interposer",
+        "area": 1119.6
+    }
+}

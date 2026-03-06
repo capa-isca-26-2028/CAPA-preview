@@ -1,0 +1,28 @@
+{
+    "Top": "MI300X",
+    "SoIC": {
+        "XCD": {
+            "stack": 1,
+            "number": 2,
+            "bonding": "hb",
+            "pitch": 9
+        },
+        "IOD": 0
+    },
+    "MI300X": {
+        "SoIC": {
+            "stack": 1,
+            "number": 4,
+            "bonding": "ubump",
+            "pitch": 35,
+            "bandwidth": 10.8
+        },
+        "hbm3": {
+            "stack": 1,
+            "number": 8,
+            "bonding": "ubump",
+            "pitch": 45
+        },
+        "interposer": 0
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "Die": {
+        "type": "hpc",
+        "node": "10",
+        "area": 419,
+        "binnable": 0.4727,
+        "c": 15,
+        "g": 14
+    },
+    "EMIB0": {
+        "type": "emib",
+        "area": 31.37
+    },
+    "EMIB1": {
+        "type": "emib",
+        "area": 23.10
+    },
+    "EMIB2": {
+        "type": "emib",
+        "area": 32.16
+    }
+}
