@@ -47,7 +47,7 @@ Take AMD MI300X as an example
         - `area` is the area of the emib or silicon interposer
 
 ## Running
-> python3 arch_parser.py <path_to_arch_descripton>
+> python3 arch_parser.py *path_to_arch_description*
 
 For example, to run the provided [TPUv4](arch_description/TPUv4/):
 
