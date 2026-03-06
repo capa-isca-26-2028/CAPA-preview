@@ -22,7 +22,7 @@ and<br>
 
 Take AMD MI300X as an example
 
-- `arch.json`(arch_description/MI300X/arch.json)
+- `arch.json`([arch_description/MI300X/arch.json](arch_description/MI300X/arch.json))
     - First key should be `Top`, with the name of the chip `MI300X`
     - Then start from the second node to the leaf node (e.g., for MI300X, this would be `SoIC`
         - An `SoIC` contains 2 `XCD` and 1 `IOD`
@@ -32,7 +32,7 @@ Take AMD MI300X as an example
         - `SoIC` is at "stack" `1`, and MI300X has `4` of them, with "bonding" method of `ubump` (micro-bump), "pitch" of `35` (um) and a die-to-die bandwidth of `10.8` (Tera Bytes per second)
         - `hbm3` is also at "stack" `1`, with `8` of them, using `ubump` of `45` (um) pitch
         - `interposer` is the base layer, so the value is `0`
-- `chiplets.json`(arch_description/MI300X/chiplets.json) contains the information of all the leaf nodes
+- `chiplets.json`([arch_description/MI300X/chiplets.json](arch_description/MI300X/chiplets.json)) contains the information of all the leaf nodes
     - For logic dies, 
         - it should contain a `type`, the default is `hpc`
         - Technology node; we currently support {65, 45, 40, 28, 20, 14, 10, 7, 7_EUV, 5, 3, 2}
@@ -49,14 +49,18 @@ Take AMD MI300X as an example
 ## Running
 > python3 arch_parser.py <path_to_arch_descripton>
 
-For example, to run the provided TPUv4:
+For example, to run the provided [TPUv4](arch_description/TPUv4):
 
 > python3 arch_parser.py arch_description/TPUv4
 
 ## Output
 
+The Terminal will print some intermediate information and raw data output.<br>
+Output files (one .csv and at least one .pdf) are generated inside the input directory.<br>
+
 Example of TPUv4 output:
 
+>...<br>
 >pieces: ['ASIC' 'hbm2' 'interposer' 'ubump_bonding_yield']<br>
 >carbon(kg): [23.36964512 36.321891 13.89975659 16.66349866]<br>
 >total carbon(kg): 90.2547913586063 
