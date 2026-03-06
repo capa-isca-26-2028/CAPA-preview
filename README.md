@@ -49,7 +49,7 @@ Take AMD MI300X as an example
 ## Running
 > python3 arch_parser.py <path_to_arch_descripton>
 
-For example, to run the provided [TPUv4](arch_description/TPUv4):
+For example, to run the provided [TPUv4](arch_description/TPUv4/):
 
 > python3 arch_parser.py arch_description/TPUv4
 
